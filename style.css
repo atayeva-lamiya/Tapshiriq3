@@ -1,0 +1,25 @@
+section .daireler {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+section .daireler .daire {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 86px;
+    margin: 10px;
+    transition: ease-in-out .3s;
+}
+section .daireler .daire .daire-p {
+    text-align: center;
+    margin-top: 35%;
+    font-size: 25px;
+}
+.daire-merkez {
+    background-color: rgb(79, 79, 219);
+}
+.bacgroundcolor {
+    background-color: rgb(79, 79, 219);
+}
